@@ -1,0 +1,3 @@
+// 埃拉托斯特尼筛法生成质数
+    bool* is_prime = (bool*)malloc((n + 1) * sizeof(bool));
+    if (!is_prime) return 0;
